@@ -10,5 +10,9 @@ fun Application.configureRouting() {
         getEquipmentRoute()
         addEquipmentRoute()
         removeEquipmentRoute()
+        listIssuesRoute()
+        getIssueRoute()
+        addIssueRoute()
+        removeIssueRoute()
     }
 }

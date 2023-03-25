@@ -23,6 +23,9 @@ object DatabaseFactory {
         transaction(database) {
             SchemaUtils.create(EquipmentTable)
         }
+        transaction(database) {
+            SchemaUtils.create(IssueTable)
+        }
     }
     suspend fun <T> dbQuery(block: suspend () -> T): T =
         newSuspendedTransaction(Dispatchers.IO) { block() }

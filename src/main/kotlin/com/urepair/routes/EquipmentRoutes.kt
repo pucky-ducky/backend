@@ -1,6 +1,5 @@
 package com.urepair.routes
 
-
 import com.urepair.dao.dao
 import com.urepair.models.Equipment
 import io.ktor.http.*
